@@ -12,6 +12,21 @@ const AboutSection = () => {
         <div className="w-24 h-1 bg-green-400 mx-auto"></div>
       </div>
 
+      {/* Brief Introduction */}
+      <Card className="bg-gray-900 border-green-600 p-8">
+        <div className="text-center mb-6">
+          <h2 className="text-2xl font-bold text-green-400 mb-4">Hello, I'm a Cybersecurity Specialist</h2>
+        </div>
+        <p className="text-green-300 text-lg leading-relaxed text-center max-w-4xl mx-auto">
+          Welcome to my digital fortress! I'm a passionate cybersecurity professional dedicated to protecting 
+          digital assets and securing the ever-evolving technological landscape. With expertise spanning from 
+          penetration testing to digital forensics, I combine technical security prowess with creative 
+          3D visualization skills to deliver comprehensive security solutions. My mission is to stay ahead 
+          of emerging threats while making cybersecurity accessible and understandable through innovative 
+          visual storytelling and hands-on security implementations.
+        </p>
+      </Card>
+
       <div className="grid md:grid-cols-2 gap-8">
         <Card className="bg-gray-900 border-green-600 p-6">
           <div className="flex items-center mb-4">
